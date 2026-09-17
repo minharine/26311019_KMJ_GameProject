@@ -1,6 +1,8 @@
-#incldue <stdio.h>
+#include <stdio.h>
 #include "CApplication.h"
 #include "glc2d.h"
+
+extern CApplication g_App;
 
 int CApplication::Init()
 {
